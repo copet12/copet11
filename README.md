@@ -16,7 +16,7 @@ sudo pip3 install goslate
 sudo pip3 install pafy 
 sudo pip3 install wikipedia 
 sudo pip3 install tweepy 
-sudo pip3 install youtube_dl git clone https://github.com/Dzulkiflibot/Sbpro-DK.git 
+sudo pip3 install youtube_dl git clone https://github.com/copet12/copet11
 Lalu
 cd Sbpro-DK 
 python Kifli12.py 
@@ -36,6 +36,6 @@ pip3 install goslate
 pip3 install wikipedia 
 pip3 install youtube_dl 
 pip3 install tweepy
-git clone https://github.com/Dzulkiflibot/Sbpro-DK.git 
+git clone https://github.com/copet12/copet11
 cd Sbpro-Dk python3 kiflisb.py 
 
