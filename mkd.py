@@ -22,27 +22,27 @@ from googletrans import Translator
 import youtube_dl
 #import pyimgflip
 
-cl = LineClient(authToken="EAY6yG5AWCejfkATjcOe.+r+jAIdxZWQoBO38ex8YVG.XEdXqbLr/uT1NzrvWwz7NEtsKTL5Gt6e2bvAYacktZU=")
+cl = LineClient(authToken="karya5675@gmail.com","polytron11")
 cl.log("Auth Token : " + str(cl.authToken))
 channel = LineChannel(cl)
 cl.log("Channel Access Token : " + str(channel.channelAccessToken))
 
-ki = LineClient(authToken="EAMVCZbTiFHlCpR5ix95.8OY1iJbE2cs3otqwBUM9rq.265F2SZm5F22AG6T5IxyL4cCW0uVYKLacwdzAv8nRdw=")
+ki = LineClient(authToken="idabolalang@gmail.com","polytron11")
 ki.log("Auth Token : " + str(ki.authToken))
 channel1 = LineChannel(ki,ki.server.CHANNEL_ID['LINE_TIMELINE'])
 ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
 
-kk = LineClient(authToken="EAsCu0pmXEBM3C4QTd5b.x6JXUNwTo2ABeWsGFXEkYW.MuBtAiirsdOyOmVilQsq4hEieQuXS1cvs4bYST/TwIE=")
+kk = LineClient(authToken="sonetaria575@gmail.com","polytron11")
 kk.log("Auth Token : " + str(kk.authToken))
 channel2 = LineChannel(kk,kk.server.CHANNEL_ID['LINE_TIMELINE'])
 kk.log("Channel Access Token : " + str(channel2.channelAccessToken))
 
-kc = LineClient(authToken="EAnSVp5bMmJeEmJ12sXf.iXDW3NqeZe2QwsaB0p/2tW.PRbS7DgoNZYLWbxo+zkQ/cRcw+cYDsE44AgJhvO0pPM=")
+kc = LineClient(authToken="setiawa564@gmail.com","polytron11")
 kc.log("Auth Token : " + str(kc.authToken))
 channel3 = LineChannel(kc,kc.server.CHANNEL_ID['LINE_TIMELINE'])
 kc.log("Channel Access Token : " + str(channel3.channelAccessToken))
 
-sw = LineClient(authToken="EA3ldEcadjbvBBi8r987.ysELs5+0aaJPhSRVRuIgzW.aJaS/DruALMYUFAfR/R7taepEbxVm9pmQANtM+mdvZg=")
+sw = LineClient(authToken="tukijosastro12@gmail.com","polytron11")
 sw.log("Auth Token : " + str(sw.authToken))
 channel4 = LineChannel(sw,sw.server.CHANNEL_ID['LINE_TIMELINE'])
 sw.log("Channel Access Token : " + str(channel4.channelAccessToken))
@@ -52,10 +52,10 @@ print ("\nBOT MULAI BERJALAN......")
 
 poll = LinePoll(cl)
 call = cl
-creator = ["ufd1fc96a20d7cf0a8e6e8dfc117f32be"]
-owner = ["ufd1fc96a20d7cf0a8e6e8dfc117f32be"]
-admin = ["ufd1fc96a20d7cf0a8e6e8dfc117f32be"]
-staff = ["ufd1fc96a20d7cf0a8e6e8dfc117f32be"]
+creator = ["uafe5c4198aa3bbceba5502798d8a2c16","u289f1bc05f73cfdd0d98ac2a0bd5963"]
+owner = ["uafe5c4198aa3bbceba5502798d8a2c16","u289f1bc05f73cfdd0d98ac2a0bd5963","u1104b4e61b0a215c66baacf1a6ca09a8","uc0b552a304fa67e42bc9e50bd6347ed2","u650fc72e02d6f37b338f6b74e942ef00"]
+admin = ["uafe5c4198aa3bbceba5502798d8a2c16","u289f1bc05f73cfdd0d98ac2a0bd5963","u1104b4e61b0a215c66baacf1a6ca09a8","uc0b552a304fa67e42bc9e50bd6347ed2","u650fc72e02d6f37b338f6b74e942ef00"]
+staff = ["uafe5c4198aa3bbceba5502798d8a2c16","u289f1bc05f73cfdd0d98ac2a0bd5963","u1104b4e61b0a215c66baacf1a6ca09a8","uc0b552a304fa67e42bc9e50bd6347ed2","u650fc72e02d6f37b338f6b74e942ef00"]
 lineProfile = cl.getProfile()
 mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
@@ -83,6 +83,7 @@ msg_dict1 = {}
 responsename1 = ki.getProfile().displayName
 responsename2 = kk.getProfile().displayName
 responsename3 = kc.getProfile().displayName
+responsename4 = sw.getProfile().displayName
 
 settings = {
     "Picture":False,
@@ -183,12 +184,12 @@ wait = {
             "statusMessage": ""
             },
     "unsend":True,
-    "mention":"Cie.......ɴɢɪɴᴛɪᴘ ʏᴀ\nawas mata nya kelilipan?",
-    "Respontag":"Ngetag lagi kangen ya",
-    "welcome":"รεℓαɱαт ∂αтαɳɠ \nɓµ∂αყαҡαɳ ૮εҡ ɳσтε.\nรεɱoga jadi kawan baik\namin",
-    "leave":"Slamat tinggal sobat\nsmoga ktmu di lain hari nanti",
-    "comment":" ──────┅❇͜͡❇͜͡☆͜͡❇͜͡❇┅──────\nᴼᴾᴱᴺ ᴼᴿᴰᴱᴿ\n────────┅┅───────\n➣ꜱᴇʟꜰʙᴏᴛ ᴏɴʟʏ\n➣ꜱᴇʟꜰʙᴏᴛ + ᴀꜱɪꜱᴛ\n➣1 ᴀᴋᴜɴ ᴜᴛᴀᴍᴀ\n➣1 ᴀᴋᴜɴ ᴜᴛᴀᴍᴀ + 2 ᴀꜱɪꜱᴛ\n➣1 ᴀᴋᴜɴ ᴜᴛᴀᴍᴀ + 3 ᴀꜱɪꜱᴛ\n➣1 ᴀᴋᴜɴ ᴜᴛᴀᴍᴀ + 4 ᴀꜱɪꜱᴛ\n➣1 ᴀᴋᴜɴ ᴜᴛᴀᴍᴀ + 5 ᴀꜱɪꜱᴛ\n➣ʙᴏᴛᴘʀᴏᴛᴇᴄᴛ 3-11 ʙᴏᴛ ᴀꜱɪꜱᴛ\n➣ɴᴇᴡ ꜱᴄʀɪᴘᴛ\n➣ʜʀɢᴀ ʙɪꜱᴀ ɴᴇɢᴏ\n─────────┅┅─────────\n  ✯❇͜͡❇͜͡C͜͡r͜͡e͜͡a͜͡t͜͡o͜͡r✯͜͡$͜͡ë͜͡I͜͡F͜͡-͜͡฿͜͜͡͡o͜͡t͜͡ ͜͡❇͜͡❇✯\nline.me/ti/p/~reza.p.i.p\nline.me/ti/p/~reza.p.i.p\n➣ѕєʟғвот κɪcκєʀ_+_ᴘʀᴏᴛᴇᴄᴛ\n────────┅❇͜͡❇͜͡☆͜͡❇͜͡❇┅────────",
-    "message":"Terimɑ Kɑsih yɑ....\nUdɑh Menɑmbɑhkɑn Sɑyɑ Sebɑgɑi Temɑn ɑndɑ.\nSemogɑ Kitɑ Bisɑ Jɑlin Silɑturɑhmi Dengɑn Bɑik.\n\nвστ вy:dzulkifli",
+    "mention":"𝔑𝔞𝔥 𝔨𝔢𝔱𝔞𝔥𝔲𝔞𝔫 𝔨𝔞𝔫 ....𝔫𝔤𝔦𝔫𝔱𝔦𝔭\𝔊𝔬𝔢 𝔖𝔲𝔪𝔭𝔞𝔥𝔦 𝔍𝔬𝔪𝔟𝔩𝔬 𝔓𝔢𝔯𝔪𝔞𝔫𝔢𝔫 𝔠𝔨𝔠𝔨𝔠𝔨",
+    "Respontag":"𝔄𝔦𝔦𝔥𝔥 𝔎𝔞𝔩𝔞𝔲 𝔎𝔞𝔫𝔤𝔢𝔫 𝔙ℭ 𝔄𝔧𝔞 𝔶𝔞 ...",
+    "welcome":"𝕎𝕖𝕝𝕝𝕔𝕠𝕞𝕖\n𝕁𝕒𝕝𝕒𝕟 - 𝕛𝕒𝕝𝕒𝕟 𝕜𝕖 ℕ𝕠𝕥𝕖 𝕕𝕦𝕝𝕦 𝕪𝕒 𝕂𝕂\n𝕊𝕖𝕞𝕠𝕘𝕒 𝕁𝕒𝕕𝕚 𝕋𝕖𝕞𝕖𝕟 𝕐𝕒𝕟𝕘 𝔹𝕒𝕚𝕜\n𝔸𝕞𝕚𝕟",
+    "leave":"Ｓｅｌａｍａｔ Ｊａｌａｎ...\nsＳｅｍｏｇａ Ｋａｍｕ Ｂａｉｋ Ｂａｉｋ Ａｊａ ＤＩ ＬｕａｒＳａｍｐａｉ Ｊｕｍｐａ Ｌａｇｉ",
+    "comment":" ──────┅❇͜͡❇͜͡☆͜͡❇͜͡❇┅──────\nᴼᴾᴱᴺ ᴼᴿᴰᴱᴿ\n────────┅┅───────\n➣ꜱᴇʟꜰʙᴏᴛ ᴏɴʟʏ\n➣ꜱᴇʟꜰʙᴏᴛ + ᴀꜱɪꜱᴛ\n➣1 ᴀᴋᴜɴ ᴜᴛᴀᴍᴀ\n➣1 ᴀᴋᴜɴ ᴜᴛᴀᴍᴀ + 2 ᴀꜱɪꜱᴛ\n➣1 ᴀᴋᴜɴ ᴜᴛᴀᴍᴀ + 3 ᴀꜱɪꜱᴛ\n➣1 ᴀᴋᴜɴ ᴜᴛᴀᴍᴀ + 4 ᴀꜱɪꜱᴛ\n➣1 ᴀᴋᴜɴ ᴜᴛᴀᴍᴀ + 5 ᴀꜱɪꜱᴛ\n➣ʙᴏᴛᴘʀᴏᴛᴇᴄᴛ 3-11 ʙᴏᴛ ᴀꜱɪꜱᴛ\n➣ɴᴇᴡ ꜱᴄʀɪᴘᴛ\n➣ʜʀɢᴀ ʙɪꜱᴀ ɴᴇɢᴏ\n─────────┅┅─────────\n  ✯❇͜͡❇͜͡C͜͡r͜͡e͜͡a͜͡t͜͡o͜͡r✯͜͡$͜͡ë͜͡I͜͡F͜͡-͜͡฿͜͜͡͡o͜͡t͜͡ ͜͡❇͜͡❇✯\nhttp://line.me/ti/p/~akusayangpadamu12\n➣ѕєʟғвот κɪcκєʀ_+_ᴘʀᴏᴛᴇᴄᴛ\n────────┅❇͜͡❇͜͡☆͜͡❇͜͡❇┅────────",
+    "message":"Terimɑ Kɑsih yɑ....\nUdɑh Menɑmbɑhkɑn Sɑyɑ Sebɑgɑi Temɑn ɑndɑ.\nSemogɑ Kitɑ Bisɑ Jɑlin Silɑturɑhmi Dengɑn Bɑik.\n\nвστ вy:Mukidi",
 }
 read = {
     "readPoint":{},
@@ -462,8 +463,8 @@ def atend():
 def help():
     key = Setmain["keyCommand"]
     key = key.title()
-    helpMessage = "🔑" + key + " [🔰Ⓓⓚ~ⒷⓄⓣ☯t]\n" + \
-                   "「🔑] " + key + "✰DRAGON KILLER✰\n" + \
+    helpMessage = "🔑" + key + " [🔰〖ᴹᵘᵏⁱᵈⁱ ͢͢͢ᴮᵒᵗ〗]\n" + \
+                   "「🔑] " + key + "✰〖ᴹᵘᵏⁱᵈⁱ ͢͢͢ᴮᵒᵗ〗✰\n" + \
                   "「🔑]  " + key + "menu\n" + \
                   "「🔑]  " + key + "menu1\n" + \
                   "「🔑]  " + key + "menu2\n" + \
@@ -509,14 +510,14 @@ def help():
                   "「🔑] " + key + "ʀᴇsᴇᴛᴋᴇʏ\n" + \
                   "「🔑] " + key + "ʀᴇғʀᴇsʜ\n" + \
                   "「🔑] " + key + "Restart\n"+ \
-                  "「🔑] [DKBOT-LINE]「🔑]"
+                  "「🔑] [〖ᴹᵘᵏⁱᵈⁱ ͢͢͢ᴮᵒᵗ〗]「🔑]"
 
     return helpMessage
 
 def help1():
     key = Setmain["keyCommand"]
     key = key.title()
-    helpMessage1 = "🔑❂͜͡➣ " + key + " [🔰Ⓓⓚ~ⒷⓄⓣ☯t]\n" + \
+    helpMessage1 = "🔑❂͜͡➣ " + key + " [〖ᴹᵘᵏⁱᵈⁱ ͢͢͢ᴮᵒᵗ〗]\n" + \
                   "🔑❂➣ " + key + "ᴛᴀɢᴀʟʟ/ɴᴀʜ\n" + \
                   "🔑❂➣ " + key + "ɢɪɴғᴏ\n" + \
                   "🔑❂➣ " + key + "ᴏᴘᴇɴ\n" + \
@@ -548,15 +549,15 @@ def help1():
                    "🔑❂➣ " + key + "ᴜᴘᴅᴀᴛᴇɢʀᴜᴘ\n" + \
                    "🔑❂➣ " + key + "ɢɪғᴛ:「ᴍɪᴅ ᴋᴏʀʙᴀɴ」「ᴊᴜᴍʟᴀʜ」\n" + \
                    "🔑❂➣ " + key + "sᴘᴀᴍ:「ᴍɪᴅ ᴋᴏʀʙᴀɴ」「ᴊᴜᴍʟᴀʜ」\n" + \
-                   "「🔑] ʙʏ: Dzulkifli\n" + \
-                   "  Creator:  line.me/ti/p/~reza.p.i.p"
+                   "「🔑] ʙʏ: 〖ᴹᵘᵏⁱᵈⁱ ͢͢͢ᴮᵒᵗ〗\n" + \
+                   "  Creator:  http://line.me/ti/p/~akusayangpadamu12"
                   
     return helpMessage1
 
 def help2():
     key = Setmain["keyCommand"]
     key = key.title()
-    helpMessage2= "      「✭PENGATURAN JBP✭」\n" + \
+    helpMessage2= "      「✭PENGATURAN MKD✭」\n" + \
                   "「🔑」 " + key + "ɪɴᴠɪᴛᴇ「ᴏɴ/ᴏғғ」\n" + \
                   "「🔑」 " + key + "sᴛɪᴄᴋᴇʀ「ᴏɴ/ᴏғғ」\n" + \
                   "「🔑」 " + key + "ᴜɴsᴇɴᴅ「ᴏɴ/ᴏғғ」\n" + \
@@ -581,33 +582,33 @@ def help2():
                   "「🔑] " + key + "sᴇᴛ ʀᴇsᴘᴏɴ:「ᴛᴇxᴛ」\n" + \
                   "「🔑] " + key + "sᴇᴛ ʟᴇᴀᴠᴇ:「ᴛᴇxᴛ」\n" + \
                   "「🔑] " + key + "sᴇᴛ ᴡᴇʟᴄᴏᴍᴇ:「ᴛᴇxᴛ」\n" + \
-                  " [🔑DKBOT-LINE]🕸 ⃢   ⟗\n" + \
-                  "🔑Creator:  line.me/ti/p/~reza.p.i.p"
+                  " [〖ᴹᵘᵏⁱᵈⁱ ͢͢͢ᴮᵒᵗ〗]🕸 ⃢   ⟗\n" + \
+                  "🔑Creator:  http://line.me/ti/p/~akusayangpadamu12"
 
     return helpMessage2
 
 def help3():
     key = Setmain["keyCommand"]
     key = key.title()
-    helpMessage3 = "      「✭MUSIK JBP✭」\n" + \
+    helpMessage3 = "      「✭MUSIK MKD✭」\n" + \
                   "「🔑」 " + key + "Musik「Nama Penyanyi」\n" + \
                   "「🔑」 " + key + "Listmp3\n" + \
                   "「🔑」 " + key + "Addmp3「Teks」\n" + \
                   "「🔑」 " + key + "Dellmp3「Teks」\n" + \
-                  "      「✭VIDEO DK✭」\n" + \
+                  "      「✭VIDEO MKD✭」\n" + \
                   "「🔑」 " + key + "Listvideo\n" + \
                   "「🔑」 " + key + "Addvideo「Teks」\n" + \
                   "「🔑」 " + key + "Dellvideo「Teks」\n" + \
-                  "      「✭GAMBAR DK✭」\n" + \
+                  "      「✭GAMBAR MKD✭」\n" + \
                   "「🔑」 " + key + "Listimage\n" + \
                   "「🔑」 " + key + "Addimg「Teks」\n" + \
                   "「🔑」 " + key + "Dellimg「Teks」\n" + \
-                  "      「✭STICKER JBP✭」\n" + \
+                  "      「✭STICKER MKD✭」\n" + \
                   "「🔑」 " + key + "Liststicker\n" + \
                   "「🔑」 " + key + "Addsticker「Teks」\n" + \
                   "「🔑」 " + key + "Dellsticker「Teks」\n" + \
                   "「🔑」 " + key + "Kode wilayah\n" + \
-                  "      「✭MEDIA LAIN JBP✭」\n" + \
+                  "      「✭MEDIA LAIN MKD✭」\n" + \
                   "「🔑」 " + key + "Lihat 「Kode wilayah cctv」\n" + \
                   "「🔑」 " + key + "Youtube「Query」\n" + \
                   "「🔑」 " + key + "Get-fs「Query」\n" + \
@@ -628,8 +629,8 @@ def help3():
                   "「🔑」 " + key + "Get-lirik「Judul Lagu」\n" + \
                   "「🔑」 " + key + "Get-instagram「User Name」\n" + \
                   "「🔑」 " + key + "Get-date「tgl-bln-thn」\n" + \
-                  "⟗   ⃢🕸ʙʏ: Dzulkifli🕸 ⃢   ⟗\n" + \
-                  "  Creator:  line.me/ti/p/~reza.p.i.p"
+                  "⟗   ⃢🕸ʙʏ: 〖ᴹᵘᵏⁱᵈⁱ ͢͢͢ᴮᵒᵗ〗🕸 ⃢   ⟗\n" + \
+                  "  Creator:  http://line.me/ti/p/~akusayangpadamu12"
 
     return helpMessage3
 
@@ -1374,8 +1375,8 @@ def bot(op):
                                 xpesan =  "「 ɢᴀᴍʙᴀʀ ᴅɪʜᴀᴘᴜs  」\n• ❂➣ ᴘᴇɴɢɪʀɪᴍ : "
                                 ret_ = "• ❂➣ ɴᴀᴍᴀ ɢʀᴜᴘ: {}".format(str(ginfo.name))
                                 ret_ += "\n• ❂➣ ᴡᴀᴋᴛᴜ ɴɢɪʀɪᴍ : {}".format(dt_to_str(cTime_to_datetime(msg_dict[msg_id]["createdTime"])))
-                                ret_ += "\n⟗   ⃢🕸DK-Bot  ⟗"
-                                ret_ += "\nCreator:  line.me/ti/p/~reza.p.i.p" 
+                                ret_ += "\n⟗  〖ᴹᵘᵏⁱᵈⁱ ͢͢͢ᴮᵒᵗ〗  ⟗"
+                                ret_ += "\nCreator:  http://line.me/ti/p/~akusayangpadamu12" 
                                 ry = str(ryan.displayName)
                                 pesan = ''
                                 pesan2 = pesan+"@x \n"
@@ -1395,8 +1396,8 @@ def bot(op):
                                 ret_ += "\n• ❂➣ ɴᴀᴍᴀ ɢʀᴜᴘ : {}".format(str(ginfo.name))
                                 ret_ += "\n• ❂➣ ᴡᴀᴋᴛᴜ ɴɢɪʀɪᴍ: {}".format(dt_to_str(cTime_to_datetime(msg_dict[msg_id]["createdTime"])))
                                 ret_ += "\n• ❂➣ᴘᴇsᴀɴɴʏᴀ : {}".format(str(msg_dict[msg_id]["text"]))
-                                ret_ += "\n⟗   ⃢🕸Tim DK-BOT🕸 ⃢   ⟗"
-                                ret_ += "\nCreator:  line.me/ti/p/~reza.p.i.p" 
+                                ret_ += "\n⟗   ⃢🕸〖ᴹᵘᵏⁱᵈⁱ ͢͢͢ᴮᵒᵗ〗🕸 ⃢   ⟗"
+                                ret_ += "\nCreator:  http://line.me/ti/p/~akusayangpadamu12" 
                                 cl.sendMessage(at, str(ret_))
                         del msg_dict[msg_id]
                 except Exception as e:
@@ -1415,8 +1416,8 @@ def bot(op):
                                 ret_ += "• ❂➣ ᴘᴇɴɢɪʀɪᴍ : {}".format(str(ryan.displayName))
                                 ret_ += "\n• ❂➣ ɴᴀᴍᴀ ɢʀᴜᴘ : {}".format(str(ginfo.name))
                                 ret_ += "\n• ❂➣ ᴡᴀᴋᴛᴜ ɴɢɪʀɪᴍ : {}".format(dt_to_str(cTime_to_datetime(msg_dict1[msg_id]["createdTime"])))
-                                ret_ += "\n⟗   ⃢🕸DK-BOT🕸 ⃢   ⟗"
-                                ret_ += "\nCreator:  line.me/ti/p/~reza.p.i.p" 
+                                ret_ += "\n⟗   ⃢🕸〖ᴹᵘᵏⁱᵈⁱ ͢͢͢ᴮᵒᵗ〗🕸 ⃢   ⟗"
+                                ret_ += "\nCreator:  http://line.me/ti/p/~akusayangpadamu12" 
                                 ret_ += "{}".format(str(msg_dict1[msg_id]["text"]))
                                 cl.sendMessage(at, str(ret_))
                                 cl.sendImage(at, msg_dict1[msg_id]["data"])
@@ -1984,7 +1985,7 @@ def bot(op):
                                 zx = ""
                                 zxc = ""
                                 zx2 = []
-                                xpesan =  "「 TIM DK-BOT 」\n• User : "
+                                xpesan =  "「 ⫷M𝓊ҟ𝖎d𝖎 ฿𐍉τ⫸ 」\n• User : "
                                 ret_ = "• Group : {}\n".format(str(ginfo.name))
                                 ret_ += str(md)
                                 ry = str(ryan.displayName)
@@ -2043,7 +2044,7 @@ def bot(op):
                                 ret_ += "\n•「🔑」 ɪɴ ᴅᴀʏs : {} ᴀɢᴀɪɴ".format(days)
                                 ret_ += "\n「 sᴘᴇᴇᴅ ʀᴇsᴘᴏɴ 」\n• ✡༎⎑  ༓{} ᴅᴇᴛɪᴋ".format(str(elapsed_time))
                                 ret_ += "\n「 sᴇʟғʙᴏᴛ ʀᴜɴᴛɪᴍᴇ 」\n• ✡༎⎑  ༓{}".format(str(bot))
-                                ret_ += "\n「🔑」ʙʏ: DZULKifli🕸 ⃢   ⟗"
+                                ret_ += "\n「🔑」ʙʏ: ⫷M𝓊ҟ𝖎d𝖎 ฿𐍉τ⫸🕸 ⃢   ⟗"
                                 ry = str(ryan.displayName)
                                 pesan = ''
                                 pesan2 = pesan+"@x \n"
@@ -2667,7 +2668,7 @@ def bot(op):
                         elif cmd == "harga":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
-                               cl.sendMessage(msg.to, "╭══════════\n║⚫─[     DAFTAR HARGA     ]─⚫ \n║SELFBOT ONLY = 75K /BLN\n║2 ASSIST = 100K /BLN\n║5 ASSIST = 200K /BLN\n║10 ASSIST = 300K /BLN\n║\n║PROTECT ANTIJS\n║\n║2 BOT + ANTIJS = 150K /BLN\n║5 BOT + ANTIJS = 300K /BLN\n║10 BOT + ANTIJS = 500K /BLN\n║\n║═ই\═ANDA BERMINAT\n║ SILAHKAN ADD CONTACT \n║ DIBAWAH INI   \n║\n║http://line.me/ti/p/~reza.p.i.p\n║       TERIMA KASIH      \n║\n╰════════════")
+                               cl.sendMessage(msg.to, "╭══════════\n║⚫─[     DAFTAR HARGA     ]─⚫ \n║SELFBOT ONLY = 75K /BLN\n║2 ASSIST = 100K /BLN\n║5 ASSIST = 200K /BLN\n║10 ASSIST = 300K /BLN\n║\n║PROTECT ANTIJS\n║\n║2 BOT + ANTIJS = 150K /BLN\n║5 BOT + ANTIJS = 300K /BLN\n║10 BOT + ANTIJS = 500K /BLN\n║\n║═ই\═ANDA BERMINAT\n║ SILAHKAN ADD CONTACT \n║ DIBAWAH INI   \n║\n║http://line.me/ti/p/~akusayangpadamu12\n║       TERIMA KASIH      \n║\n╰════════════")
                                cl.sendMessage(msg.to, "Yuck di Order.... ")
                                cl.sendContact(to, mid)
 
@@ -2740,7 +2741,7 @@ def bot(op):
 "Ⓟⓤⓝⓨⓐ👿━━👿Ⓡⓐⓣⓐ Ⓝⓘ\n" 
 "Ⓜⓐⓗ━👿━")
                                kc.sendMessage(msg.to,
-">>>Ⓑⓨⓔ_Ⓑⓨⓔ ⒼⒸ Ⓛⓐⓚⓝⓐⓣ>><\nⒹⓝⓓⓐⓜ Ⓒⓐⓡⓘ Ⓚⓜⓘ\n<<<<<<<<<>>\nhttp://line.me/ti/p/~reza.p.i.p\nhttp://line.me/ti/p/ryansakra_m1")
+">>>Ⓑⓨⓔ_Ⓑⓨⓔ ⒼⒸ Ⓛⓐⓚⓝⓐⓣ>><\nⒹⓝⓓⓐⓜ Ⓒⓐⓡⓘ Ⓚⓜⓘ\n<<<<<<<<<>>\nhttp://line.me/ti/p/~akusayangpadamu12")
                                cl.sendMessage(msg.to, None, contentMetadata={"STKID":"24893204","STKPKGID":"1790925","STKVER":"1"}, contentType=7)
                                targets = []
                                for g in gs.members:
@@ -2773,7 +2774,7 @@ def bot(op):
                                        except:
                                            pass
 
-                        elif cmd == "dragonbot" or cmd == "dkbot":
+                        elif cmd == "dragonbot" or cmd == "Mkdbot":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                start = time.time()
@@ -2869,7 +2870,7 @@ def bot(op):
 		"║╗╣║╠╣║━║║━║╠╣║\n"
 		"╚╩╝╚╝╚╝━╚╝━╚╝╚╝\n"
 		"━━━━━━━━━━━━━━━\n"
-">>>Ⓑⓨⓔ_Ⓑⓨⓔ ⒼⒸ Ⓛⓐⓚⓝⓐⓣ>><\nⒹⓝⓓⓐⓜ Ⓒⓐⓡⓘ Ⓚⓜⓘ\n<<<<<<<<<>>\nhttp://line.me/ti/p/~reza.p.i.p\nhttp://line.me/ti/p/ryansakra_m1")
+">>>Ⓑⓨⓔ_Ⓑⓨⓔ ⒼⒸ Ⓛⓐⓚⓝⓐⓣ>><\nⒹⓝⓓⓐⓜ Ⓒⓐⓡⓘ Ⓚⓜⓘ\n<<<<<<<<<>>\nhttp://line.me/ti/p/~akusayangpadamu12")
                                cl.sendMessage(msg.to, None, contentMetadata={"STKID":"15996978","STKPKGID":"1416471","STKVER":"1"}, contentType=7)
 
                         elif cmd == "respon":
@@ -3218,8 +3219,8 @@ def bot(op):
                                     c = c + 1
                                     end = '\n'
                                     mc += str(c) + ". " +cl.getContact(m_id).displayName + "\n"
-                                cl.sendMessage(msg.to,"🔑  [🔰Ⓓⓚ~ⒷⓄⓣ☯t]\n\n༎⎑  ༓Super admin:\n"+ma+"\n༎⎑  ༓Admin:\n"+mb+"\n༎⎑  ༓Staff:\n"+mc+"\n༎⎑  ༓Total「%s」 " %(str(len(owner)+len(admin)+len(staff))))
-
+                                cl.sendMessage(msg.to,"🔑  [🔰⫷M𝓊ҟ𝖎d𝖎 ฿𐍉τ⫸]\n\n༎⎑  ༓Super admin:\n"+ma+"\n༎⎑  ༓Admin:\n"+mb+"\n༎⎑  ༓Staff:\n"+mc+"\n༎⎑  ༓Total「%s」 " %(str(len(owner)+len(admin)+len(staff))))
+				
                         elif cmd == "listprotect":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
@@ -3778,7 +3779,7 @@ def bot(op):
                               cl.sendMessage(msg.to,"Sukses membersihkan " +mc)
 
 #===========BOT UPDATE============#
-                        elif msg.text in ["Cipok","Tagall","Desah","Emuach","Assalamualaikum","Pagi","Siang","Sore","Malam","Nah","All"]:
+                        elif msg.text in ["Cipok","Tagall","Desah","tag"]:
                                if wait["selfbot"] == True:
                                 if msg._from in admin:
                                  group = cl.getGroup(msg.to)
@@ -3931,7 +3932,7 @@ def bot(op):
                               try:
                                   tz = pytz.timezone("Asia/Jakarta")
                                   timeNow = datetime.now(tz=tz)
-                                  cl.sendMessage(msg.to, "「 Status Sider 」\nBerhasil diaktifkan\n\n• Jam [ "+ datetime.strftime(timeNow,'%H:%M:%S')+" ]"+"\n• Tanggal : "+ datetime.strftime(timeNow,'%Y-%m-%d'))
+                                  cl.sendMessage(msg.to, "「 Status CCTV 」\nBerhasil diaktifkan\n\n• Jam [ "+ datetime.strftime(timeNow,'%H:%M:%S')+" ]"+"\n• Tanggal : "+ datetime.strftime(timeNow,'%Y-%m-%d'))
                                   del cctv['point'][msg.to]
                                   del cctv['sidermem'][msg.to]
                                   del cctv['cyduk'][msg.to]
@@ -3948,7 +3949,7 @@ def bot(op):
                                   tz = pytz.timezone("Asia/Jakarta")
                                   timeNow = datetime.now(tz=tz)
                                   cctv['cyduk'][msg.to]=False
-                                  cl.sendMessage(msg.to, "「 Status Sider 」\nBerhasil dimatikan\n\n• Jam [ "+ datetime.strftime(timeNow,'%H:%M:%S')+" ]"+"\n• Tanggal : "+ datetime.strftime(timeNow,'%Y-%m-%d'))
+                                  cl.sendMessage(msg.to, "「 Status CCTV 」\nBerhasil dimatikan\n\n• Jam [ "+ datetime.strftime(timeNow,'%H:%M:%S')+" ]"+"\n• Tanggal : "+ datetime.strftime(timeNow,'%Y-%m-%d'))
                               else:
                                   cl.sendMessage(msg.to, "Sudak tidak aktif")
 
@@ -4969,11 +4970,11 @@ def bot(op):
                              
                         elif cmd == "promosi":
                           if msg._from in admin:
-                             cl.sendMessage(msg.to,"──────┅❇͜͡❇͜͡☆͜͡❇͜͡❇┅──────\nᴼᴾᴱᴺ ᴼᴿᴰᴱᴿ\n────────┅┅───────\n➣ꜱᴇʟꜰʙᴏᴛ ᴏɴʟʏ\n➣ꜱᴇʟꜰʙᴏᴛ + ᴀꜱɪꜱᴛ\n➣1 ᴀᴋᴜɴ ᴜᴛᴀᴍᴀ\n➣1 ᴀᴋᴜɴ ᴜᴛᴀᴍᴀ + 2 ᴀꜱɪꜱᴛ\n➣1 ᴀᴋᴜɴ ᴜᴛᴀᴍᴀ + 3 ᴀꜱɪꜱᴛ\n➣1 ᴀᴋᴜɴ ᴜᴛᴀᴍᴀ + 4 ᴀꜱɪꜱᴛ\n➣1 ᴀᴋᴜɴ ᴜᴛᴀᴍᴀ + 5 ᴀꜱɪꜱᴛ\n➣ʙᴏᴛᴘʀᴏᴛᴇᴄᴛ 3-11 ʙᴏᴛ ᴀꜱɪꜱᴛ\n➣ɴᴇᴡ ꜱᴄʀɪᴘᴛ\n➣ʜʀɢᴀ ʙɪꜱᴀ ɴᴇɢᴏ\n─────────┅┅─────────\n  ✯❇͜͡❇͜͡C͜͡r͜͡e͜͡a͜͡t͜͡o͜͡r✯͜͡$͜͡ë͜͡I͜͡F͜͡-͜͡฿͜͜͡͡o͜͡t͜͡ ͜͡❇͜͡❇✯\nline.me/ti/p/~reza.p.i.p\nline.me/ti/p/~reza.p.i.p\n➣ѕєʟғвот κɪcκєʀ_+_ᴘʀᴏᴛᴇᴄᴛ\n────────┅❇͜͡❇͜͡☆͜͡❇͜͡❇┅────────")
+                             cl.sendMessage(msg.to,"──────┅❇͜͡❇͜͡☆͜͡❇͜͡❇┅──────\nᴼᴾᴱᴺ ᴼᴿᴰᴱᴿ\n────────┅┅───────\n➣ꜱᴇʟꜰʙᴏᴛ ᴏɴʟʏ\n➣ꜱᴇʟꜰʙᴏᴛ + ᴀꜱɪꜱᴛ\n➣1 ᴀᴋᴜɴ ᴜᴛᴀᴍᴀ\n➣1 ᴀᴋᴜɴ ᴜᴛᴀᴍᴀ + 2 ᴀꜱɪꜱᴛ\n➣1 ᴀᴋᴜɴ ᴜᴛᴀᴍᴀ + 3 ᴀꜱɪꜱᴛ\n➣1 ᴀᴋᴜɴ ᴜᴛᴀᴍᴀ + 4 ᴀꜱɪꜱᴛ\n➣1 ᴀᴋᴜɴ ᴜᴛᴀᴍᴀ + 5 ᴀꜱɪꜱᴛ\n➣ʙᴏᴛᴘʀᴏᴛᴇᴄᴛ 3-11 ʙᴏᴛ ᴀꜱɪꜱᴛ\n➣ɴᴇᴡ ꜱᴄʀɪᴘᴛ\n➣ʜʀɢᴀ ʙɪꜱᴀ ɴᴇɢᴏ\n─────────┅┅─────────\n  ✯❇͜͡❇͜͡C͜͡r͜͡e͜͡a͜͡t͜͡o͜͡r✯͜͡$͜͡ë͜͡I͜͡F͜͡-͜͡฿͜͜͡͡o͜͡t͜͡ ͜͡❇͜͡❇✯\nhttp://line.me/ti/p/~akusayangpadamu12\n➣ѕєʟғвот κɪcκєʀ_+_ᴘʀᴏᴛᴇᴄᴛ\n────────┅❇͜͡❇͜͡☆͜͡❇͜͡❇┅────────")
                              msg.contentType = 13
                              msg.contentMetadata = {'mid': admin}
                              tanya = msg.text.replace("promo ","")
-                             jawab = ("──────┅❇͜͡❇͜͡☆͜͡❇͜͡❇┅──────\nᴼᴾᴱᴺ ᴼᴿᴰᴱᴿ\n────────┅┅───────\n➣ꜱᴇʟꜰʙᴏᴛ ᴏɴʟʏ\n➣ꜱᴇʟꜰʙᴏᴛ + ᴀꜱɪꜱᴛ\n➣1 ᴀᴋᴜɴ ᴜᴛᴀᴍᴀ\n➣1 ᴀᴋᴜɴ ᴜᴛᴀᴍᴀ + 2 ᴀꜱɪꜱᴛ\n➣1 ᴀᴋᴜɴ ᴜᴛᴀᴍᴀ + 3 ᴀꜱɪꜱᴛ\n➣1 ᴀᴋᴜɴ ᴜᴛᴀᴍᴀ + 4 ᴀꜱɪꜱᴛ\n➣1 ᴀᴋᴜɴ ᴜᴛᴀᴍᴀ + 5 ᴀꜱɪꜱᴛ\n➣ʙᴏᴛᴘʀᴏᴛᴇᴄᴛ 3-11 ʙᴏᴛ ᴀꜱɪꜱᴛ\n➣ɴᴇᴡ ꜱᴄʀɪᴘᴛ\n➣ʜʀɢᴀ ʙɪꜱᴀ ɴᴇɢᴏ\n─────────┅┅─────────\n  ✯❇͜͡❇͜͡C͜͡r͜͡e͜͡a͜͡t͜͡o͜͡r✯͜͡$͜͡ë͜͡I͜͡F͜͡-͜͡฿͜͜͡͡o͜͡t͜͡ ͜͡❇͜͡❇✯\nline.me/ti/p/~reza.p.i.p\nline.me/ti/p/~ryansakra\n➣ѕєʟғвот κɪcκєʀ_+_ᴘʀᴏᴛᴇᴄᴛ\n────────┅❇͜͡❇͜͡☆͜͡❇͜͡❇┅────────")
+                             jawab = ("──────┅❇͜͡❇͜͡☆͜͡❇͜͡❇┅──────\nᴼᴾᴱᴺ ᴼᴿᴰᴱᴿ\n────────┅┅───────\n➣ꜱᴇʟꜰʙᴏᴛ ᴏɴʟʏ\n➣ꜱᴇʟꜰʙᴏᴛ + ᴀꜱɪꜱᴛ\n➣1 ᴀᴋᴜɴ ᴜᴛᴀᴍᴀ\n➣1 ᴀᴋᴜɴ ᴜᴛᴀᴍᴀ + 2 ᴀꜱɪꜱᴛ\n➣1 ᴀᴋᴜɴ ᴜᴛᴀᴍᴀ + 3 ᴀꜱɪꜱᴛ\n➣1 ᴀᴋᴜɴ ᴜᴛᴀᴍᴀ + 4 ᴀꜱɪꜱᴛ\n➣1 ᴀᴋᴜɴ ᴜᴛᴀᴍᴀ + 5 ᴀꜱɪꜱᴛ\n➣ʙᴏᴛᴘʀᴏᴛᴇᴄᴛ 3-11 ʙᴏᴛ ᴀꜱɪꜱᴛ\n➣ɴᴇᴡ ꜱᴄʀɪᴘᴛ\n➣ʜʀɢᴀ ʙɪꜱᴀ ɴᴇɢᴏ\n─────────┅┅─────────\n  ✯❇͜͡❇͜͡C͜͡r͜͡e͜͡a͜͡t͜͡o͜͡r✯͜͡$͜͡ë͜͡I͜͡F͜͡-͜͡฿͜͜͡͡o͜͡t͜͡ ͜͡❇͜͡❇✯\nhttp://line.me/ti/p/~akusayangpadamu12\n➣ѕєʟғвот κɪcκєʀ_+_ᴘʀᴏᴛᴇᴄᴛ\n────────┅❇͜͡❇͜͡☆͜͡❇͜͡❇┅────────")
                              jawaban = random.choice(jawab)
                              tts = gTTS(text=jawaban, lang='id')
                              tts.save('tts.mp3')
@@ -5041,7 +5042,7 @@ def bot(op):
 		"║╗╣║╠╣║━║║━║╠╣║\n"
 		"╚╩╝╚╝╚╝━╚╝━╚╝╚╝\n"
 		"━━━━━━━━━━━━━━━\n"
-">>>Ⓑⓨⓔ_Ⓑⓨⓔ ⒼⒸ Ⓛⓐⓚⓝⓐⓣ>><\nⒹⓝⓓⓐⓜ Ⓒⓐⓡⓘ Ⓚⓜⓘ\n<<<<<<<<<>>\nhttp://line.me/ti/p/~reza.p.i.p\nhttp://line.me/ti/p/ryansakra_m1")
+">>>Ⓑⓨⓔ_Ⓑⓨⓔ ⒼⒸ Ⓛⓐⓚⓝⓐⓣ>><\nⒹⓝⓓⓐⓜ Ⓒⓐⓡⓘ Ⓚⓜⓘ\n<<<<<<<<<>>\nhttp://line.me/ti/p/~akusayangpadamu12")
                                cl.sendMessage(msg.to, None, contentMetadata={"STKID":"15996978","STKPKGID":"1416471","STKVER":"1"}, contentType=7)
 
                         elif cmd == "dk-bot" or cmd == "dkbot":
@@ -5055,7 +5056,7 @@ def bot(op):
                         elif cmd == "harga":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
-                               cl.sendMessage(msg.to, "╭══════════\n║⚫─[     DAFTAR HARGA     ]─⚫ \n║SELFBOT ONLY = 75K /BLN\n║2 ASSIST = 100K /BLN\n║5 ASSIST = 200K /BLN\n║10 ASSIST = 300K /BLN\n║\n║PROTECT ANTIJS\n║\n║2 BOT + ANTIJS = 150K /BLN\n║5 BOT + ANTIJS = 300K /BLN\n║10 BOT + ANTIJS = 500K /BLN\n║\n║═ই\═ANDA BERMINAT\n║ SILAHKAN ADD CONTACT \n║ DIBAWAH INI   \n║\n║http://line.me/ti/p/~reza.p.i.p\n║       TERIMA KASIH      \n║\n╰════════════")
+                               cl.sendMessage(msg.to, "╭══════════\n║⚫─[     DAFTAR HARGA     ]─⚫ \n║SELFBOT ONLY = 75K /BLN\n║2 ASSIST = 100K /BLN\n║5 ASSIST = 200K /BLN\n║10 ASSIST = 300K /BLN\n║\n║PROTECT ANTIJS\n║\n║2 BOT + ANTIJS = 150K /BLN\n║5 BOT + ANTIJS = 300K /BLN\n║10 BOT + ANTIJS = 500K /BLN\n║\n║═ই\═ANDA BERMINAT\n║ SILAHKAN ADD CONTACT \n║ DIBAWAH INI   \n║\n║http://line.me/ti/p/~akusayangpadamu12\n║       TERIMA KASIH      \n║\n╰════════════")
                                cl.sendMessage(msg.to, "Yuck di Order.... ")
 #===========Protection============#
                         elif 'Welcome ' in msg.text:
